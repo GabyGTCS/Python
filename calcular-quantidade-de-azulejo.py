@@ -1,0 +1,6 @@
+ap= float(input("Altura da Parede"))
+lp=float(input("Largura da Parede"))
+aa=float(input("Altura do Azulejo"))
+la=float(input("Largura do Azulejo"))
+q=(ap*lp)/(aa*la)
+print ("Quantidade de Azulejos: %2.f"%q)
